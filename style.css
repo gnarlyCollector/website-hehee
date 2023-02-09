@@ -1,0 +1,160 @@
+  body {
+   font-family: "Courier New", Courier, monospace;
+   background-color: #535353;
+   font-weight: bold;
+   font-size: 14px;
+   text-align: center;
+   margin: auto;
+   padding-bottom: 50px	
+}
+ nav {
+   font-family: sans-serif;
+   font-size: 10px;
+   color: white;
+   padding: 4px;
+   background-color: #535353;
+   max-width: 950px;
+   margin: auto;
+}
+
+ .wrapper {
+   max-width: 950px;
+   background-color: #c6c6c6;
+   margin: auto;
+   padding-bottom: 30px;
+}
+ .contentbox {
+   max-width: 650px;
+   background-color: #EEEEEE;
+   margin: auto;
+   margin-top: 15px;
+}
+ .contentbox h1 {
+   padding: 20px;
+   margin: 0;
+}
+ .contentbox p {
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+}
+
+ .panel {
+   width: 100%;
+}
+ .prompt {
+   text-align: left;
+   font-size: 25px;
+   font-weight: normal;
+   font-family: "Verdana";
+   padding-left: 25px
+}
+ .chatborder {
+   border: 1px dashed grey;
+   text-align: left;
+   max-width: 600px;
+   margin: auto;
+}
+ .bottom {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   font-family: sans-serif;
+   font-size: 10px
+}
+.center {
+  display: block;
+  margin: auto;
+  padding-top: 5px;
+}
+
+@font-face {
+  font-family: fontstuck;
+  src: url(fontstuck.ttf);
+}
+
+.username {
+  font-weight: 500;
+    border: 3px solid #780000;
+    border-style: solid solid hidden solid;
+    max-width: 540px;
+    margin:auto;
+    font-size: 14px;
+    font-family: 'Courier New';
+    background-color: #FFA4A4;
+    text-align: center;
+    padding: 6px;
+    color: white;
+    
+}
+.beginpester {
+    font-size: 10px;
+    font-family: 'fontstuck';
+    border: 3px solid #780000;
+    border-style: hidden solid solid solid;
+    max-width: 508px;
+    background-color: #E5000F;
+    text-align: left;
+    padding: 10px 22px 5px 22px;
+    margin: -3px 0 0 46px;
+  }
+.beginpester > div {
+    color: #747474;
+    font-size: 14px;
+    font-family: 'Courier New';
+    text-align: left;
+    line-height: 18px;
+    padding: 8px 4px 8px 4px;
+    margin: 5px -8px 5px -8px;
+    outline: 3px solid #FFA4A4;
+    background-color: #fafafa;
+  }
+.usernameyellow {
+  font-weight: 500;
+    border: 3px solid #FFFF00;
+    border-style: solid solid hidden solid;
+    max-width: 540px;
+    margin:auto;
+    font-size: 14px;
+    font-family: 'Courier New';
+    background-color: #C48A00;
+    text-align: center;
+    padding: 6px;
+    color: white;
+    
+}
+.beginpesteryellow {
+    font-size: 10px;
+    font-family: 'fontstuck';
+    border: 3px solid #FFFF00;
+    border-style: hidden solid solid solid;
+    max-width: 508px;
+    background-color: #FDB302;
+    text-align: left;
+    padding: 10px 22px 5px 22px;
+    margin: -3px 0 0 46px;
+  }
+.beginpesteryellow > div {
+    color: #747474;
+    font-size: 14px;
+    font-family: 'Courier New';
+    text-align: left;
+    line-height: 18px;
+    padding: 8px 4px 8px 4px;
+    margin: 5px -8px 5px -8px;
+    outline: 3px solid #C48A00;
+    background-color: #fafafa;
+  }
+ 
+  /*colors lol*/
+.jd {
+    color: #55aaff }
+.kase {
+    color: #21D17E }
+.nen  {
+    color: #416600 }
+.len  {
+    color: #2ed73a }
+.seph {
+    color: #000056 }
+  
