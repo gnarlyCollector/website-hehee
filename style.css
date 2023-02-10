@@ -25,10 +25,11 @@ h1 {
 
 nav {
 	font-family: RHFONT;
+	color: white;
 	font-size: 20px;
 	margin: auto;
 	background-color: rgb(28, 99, 81);
-	max-width: 1500px
+	max-width: 1500px;
 }
 
 .brsmall {
