@@ -4,7 +4,7 @@ html {
 }
 
 a {
-	color: rgb(28, 99, 81);
+	color: white;
 }
 
 a:active {
@@ -18,9 +18,29 @@ a:active {
 
 h1 {
 	font-family: RHFONT;
-	border-bottom: 1px solid rgb(28, 112, 92);
 	text-align: center;
 	letter-spacing: 2px;
+	padding-bottom: 5px;
 }
 
+nav {
+	font-family: RHFONT;
+	font-size: 20px;
+	margin: auto;
+	background-color: rgb(28, 99, 81);
+	max-width: 1500px
+}
+
+.brsmall {
+	display: block;
+    margin-bottom: 10px;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+	height: auto;
+}
 
