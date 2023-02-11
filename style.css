@@ -44,6 +44,8 @@ text {
 	margin-top: 2.5%;
 	margin-left: 39%;
 	margin-right: 10%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
 	border-style: groove;
 	border: thick double rgb(28, 99, 81);
 	border-width: 8px;
@@ -55,6 +57,7 @@ text {
 	font-weight: bold;
 	text-align: center;
 	font-size: 20px;
+	line-height: 30px
 }	
 
 .brsmall {
@@ -65,7 +68,8 @@ text {
 .logo {
 	margin-left: 10%;
 	margin-top: 1.6%;
-	max-width: 22.5%
+	max-width: 22.5%;
+	float: left;
 }
 
 .dsgame {
@@ -79,3 +83,29 @@ img {
     width: auto;
 }
 
+@media screen and (max-width: 481px){
+	
+nav {
+font-size: 20px;
+}	
+	
+h2 {
+	font-size: 18px;
+}
+
+.normalpilled {
+	font-size: 17px;
+}	
+
+.logo {
+	max-width: 50%;
+	margin-left: 25%;
+	margin-top: 0;
+}	
+
+text {
+	margin: auto;
+	margin-top: 47%;
+}	
+	
+}
