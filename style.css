@@ -43,8 +43,9 @@ nav {
 text {
 	display: block;
 	font-size: 20px;
-	margin-left: 40%;
-	margin-right: 10%;
+	margin-top: 46px;
+	margin-left: 750px;
+	margin-right: 200px;
 	border-style: groove;
 	border: thick double rgb(28, 99, 81);
 	border-width: 8px;
