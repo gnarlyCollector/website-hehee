@@ -3,6 +3,12 @@ html {
 	color: rgb(0, 86, 130);
 }
 
+<script type="text/javascript">
+  if (screen.width <= 699) {
+    document.location = "w3docs.com";
+  }
+</script>
+
 a {
 	color: white;
 }
@@ -65,9 +71,9 @@ text {
 }
 
 .logo {
-	margin-left: 10%;
+	margin-left: 190px;
 	margin-top: 30px;
-	max-height: 300px;
+	max-width: 22.5%
 }
 
 .dsgame {
