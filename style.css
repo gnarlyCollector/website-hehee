@@ -26,7 +26,6 @@ h2 {
 	font-family: RHFONT;
 	letter-spacing: 2px;
 	text-align: center;
-	padding-right: 50px;
 }
 
 nav {
@@ -42,9 +41,9 @@ nav {
 text {
 	display: block;
 	font-size: 20px;
-	margin-top: 46px;
-	margin-left: 750px;
-	margin-right: 200px;
+	margin-top: 2.5%;
+	margin-left: 39%;
+	margin-right: 10%;
 	border-style: groove;
 	border: thick double rgb(28, 99, 81);
 	border-width: 8px;
@@ -60,12 +59,12 @@ text {
 
 .brsmall {
 	display: block;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
 }
 
 .logo {
-	margin-left: 190px;
-	margin-top: 30px;
+	margin-left: 10%;
+	margin-top: 1.6%;
 	max-width: 22.5%
 }
 
