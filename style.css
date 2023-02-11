@@ -29,7 +29,7 @@ nav {
 	font-size: 20px;
 	margin: auto;
 	background-color: rgb(28, 99, 81);
-	max-height: 35px;
+	max-height: 50px;
 	max-width: 1500px;
 }
 
@@ -46,8 +46,3 @@ nav {
 	height: auto;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto; /* ie8 */
-}
