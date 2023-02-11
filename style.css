@@ -2,13 +2,6 @@ html {
 	background-color: rgb(52, 255, 185);
 	color: rgb(0, 86, 130);
 }
-
-<script type="text/javascript">
-  if (screen.width <= 699) {
-    document.location = "w3docs.com";
-  }
-</script>
-
 a {
 	color: white;
 }
