@@ -1,5 +1,5 @@
 html {
-	background-color: rgb(52, 255, 185);
+	background-image: url("hearts.png");
 	color: rgb(0, 86, 130);
 }
 a {
@@ -40,6 +40,7 @@ nav {
 
 text {
 	display: block;
+	background-color: rgb(52, 255, 185);
 	font-size: 20px;
 	margin-top: 2.5%;
 	margin-left: 39%;
@@ -51,6 +52,11 @@ text {
 	border-width: 8px;
 	border-radius: 10px;
 }	
+
+div.buttons {
+	text-align:center;
+	margin-top: 150px;
+}
 
 .normalpilled {
 	font-family: Courier New;
