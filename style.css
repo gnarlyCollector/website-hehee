@@ -81,7 +81,7 @@ div.buttons {
 
 .brsmall {
 	display: block;
-    margin-bottom: 1%;
+    margin-bottom: .8%;
 }
 
 .logo {
@@ -89,11 +89,6 @@ div.buttons {
 	margin-top: 1.6%;
 	max-width: 22.5%;
 	float: left;
-}
-
-.center {
-	display: block;
-	margin: 0px auto 0px auto;
 }
 
 .dsgame {
