@@ -2,6 +2,11 @@ html {
 	background-image: url("hearts.png");
 	color: rgb(0, 86, 130);
 }
+
+.cursor {
+	cursor: url("images/WiiCursor.cur"), auto;
+}
+
 a.class1 {
 	color: white;
 }
@@ -38,7 +43,7 @@ nav {
 	font-size: 30px;
 	margin: auto;
 	background-color: rgb(28, 99, 81);
-	max-height: 50px;
+	max-height: auto;
 	max-width: 1800px;
 }
 
@@ -57,8 +62,33 @@ text {
 	border-radius: 10px;
 }	
 
+blog-block {
+	display: block;
+	background-color: rgb(52, 255, 185);
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-bottom: 1.05%;
+	font-size: 20px;
+	border-style: groove;
+	border: thick double rgb(28, 99, 81);
+	border-width: 8px;
+	border-radius: 10px;
+}
+
+.image-container{
+	text-align: center;
+	width: auto;
+	height: auto;
+}	
+
 div.buttons {
 	text-align:center;
+}
+
+div.cool {
+	text-align:center;
+	padding-top: .7%;
+	padding-bottom: .7%;
 }
 
 .normalpilled {
@@ -75,7 +105,7 @@ div.buttons {
 	font-weight: bold;
 	text-align: center;
 	font-size: 30px;
-	line-height: 30px;
+	line-height: 25px;
 	color: rgb(0, 86, 130);
 } 
 
@@ -97,7 +127,7 @@ div.buttons {
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
     height: auto;
     width: auto;
 }
@@ -114,6 +144,7 @@ hr {
 @media screen and (max-width: 481px){
 	
 nav {
+max-height: auto;
 font-size: 20px;
 }	
 	
@@ -138,7 +169,7 @@ text {
 }	
 	
 div.buttons {
-	margin-top: 50px
+	text-align: center;
 }
 
 .normalpilled2 {
@@ -148,6 +179,12 @@ div.buttons {
 	font-size: 20px;
 	line-height: 30px;
 	color: rgb(0, 86, 130);
+}
+
+div.cool {
+	text-align:center;
+	padding-top: 2%;
+	padding-bottom: .7%;
 }
 
 }
