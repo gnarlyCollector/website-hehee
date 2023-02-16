@@ -86,9 +86,14 @@ div.buttons {
 }
 
 div.cool {
-	text-align:center;
-	padding-top: .7%;
-	padding-bottom: .7%;
+	margin: auto;
+	height: 59px;
+	width: 129px;
+	background: url("images/cool.png");
+}
+
+.cool:hover {
+	background: url("images/cool.gif");
 }
 
 .normalpilled {
@@ -132,6 +137,24 @@ img {
     width: auto;
 }
 
+.hover_img {
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+display: none;
+
+}
+
+.img:hover .hover_img {
+
+display: inline;
+
+}
+
 hr {
 	background-color: rgb(28, 99, 81);
 	height: 6px;
@@ -168,6 +191,10 @@ text {
 	margin-top: 47%;
 }	
 	
+blog-block {
+	margin: auto;
+}	
+
 div.buttons {
 	text-align: center;
 }
