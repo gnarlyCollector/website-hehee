@@ -36,7 +36,8 @@ ul {
 iframe {
 	display: block;
 	margin: 0 auto;
-	text-align: center;
+	height: 315px;
+	width: 420px;
 }	
 
 h1 {
@@ -256,5 +257,10 @@ div.cool {
 	padding-top: 2%;
 	padding-bottom: .7%;
 }
+
+iframe {
+	width: auto;
+	height: auto;
+}	
 
 }
