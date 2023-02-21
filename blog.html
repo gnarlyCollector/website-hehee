@@ -24,6 +24,19 @@ function playAudio(){
 </script>
 <audio id='audio1' src="sound/click1.wav" type="audio/wav" preload="auto"></audio>
 <audio id='audio2' src="sound/click2.wav" type="audio/wav" preload="auto"></audio>
+
+<script>
+function blog_2(){
+document.getElementById("posts").innerHTML = "<br>personal posts coming when i feel like it x3";
+}
+</script>
+
+<script>
+function blog_1(){
+document.getElementById("posts").innerHTML = "<ul><li><a href='blog/pizza' class=blog>pizza tower is fucking epic</a> <strong> - feb 20, 2023</strong></li>";
+}
+</script>
+
 <div class="image-container">
 		<img id="images" id="playaudio" src="images/lson.png" data-img="images/lsoff.png" alt="">
 	</div>
@@ -35,15 +48,18 @@ img.addEventListener('click', function(){
 	if(toggle){
 		img.src = 'images/lson.png';
 		audio1.play();
+		blog_1();
 	}else{
 		img.src = 'images/lsoff.png';
 		audio2.play();
+		blog_2();
 	}	
 })	
 </script>
 <blog-block>
-	<div class="normalpilled">
-<br>posts coming very soon! &lt;3<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<div id="posts" class="normalpilled">
+	<ul>
+<li><a href='blog/pizza' class="blog">pizza tower is fucking epic</a> - feb 20, 2023</li>
 	</div>
 </blog-block>
  <div class="buttons"><hr></hr><img src="buttons/f4aef25d.jpg">&nbsp;<img src="buttons/e-hs.gif">&nbsp;<img src="buttons/wii.gif">
