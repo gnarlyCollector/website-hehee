@@ -93,6 +93,21 @@ blog-block {
 	overflow-y: auto;
 }
 
+sillies-block {
+	display: block;
+	background-color: rgb(52, 255, 185);
+	margin: auto;
+	padding-bottom: 1.05%;
+	font-size: 20px;
+	border-style: groove;
+	border: thick double rgb(28, 99, 81);
+	border-width: 8px;
+	border-radius: 10px;
+	max-width: 900px;
+	height: 533px;
+	overflow-y: auto;
+}
+
 post-block {
 	display: block;
 	background-color: rgb(52, 255, 185);
@@ -236,6 +251,10 @@ text {
 }	
 	
 blog-block {
+	margin: auto;
+}	
+
+sillies-block {
 	margin: auto;
 }	
 
