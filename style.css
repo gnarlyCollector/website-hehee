@@ -178,12 +178,22 @@ div.cool {
     margin-bottom: .8%;
 }
 
-.logo {
+.twogether{
+	display: block;
+	float: left;
 	margin-left: 10%;
 	margin-top: 1.6%;
 	max-width: 22.5%;
-	float: left;
 }
+
+.gb {
+	margin-left: 30%;
+	margin-top: 10%;
+}	
+
+.gb2 {
+	display: none;
+}	
 
 .dsgame {
 	vertical-align: middle;
@@ -239,10 +249,19 @@ h2 {
 	font-size: 17px;
 }	
 
-.logo {
+.twogether {
+	display: inline-block;
 	max-width: 50%;
 	margin-left: 25%;
 	margin-top: 0;
+}
+
+.gb {
+	display: none;
+}	
+
+.gb2 {
+	display: inline;
 }	
 
 text {
