@@ -1,0 +1,191 @@
+  body {
+   font-family: "courier-std", courier, monospace;
+   background-color: #5A5A5A;
+   font-weight: bold;
+   font-size: 14px;
+   text-align: center;
+   margin: auto;
+   padding-bottom: 50px	
+}
+ nav {
+   font-family: sans-serif;
+   font-size: 10px;
+   color: white;
+   padding: 4px;
+   background-color: #5A5A5A;
+   max-width: 1200px;
+   margin: auto;
+}
+
+ .wrapper {
+   max-width: 900px;
+   background-color: #c6c6c6;
+   margin: auto;
+   padding-bottom: 30px;
+}
+ .contentbox {
+   max-width: 650px;
+   background-color: #FFFFFF;
+   margin: auto;
+   margin-top: 15px;
+}
+ .contentbox h1 {
+	font-size: 32px;
+    padding: 20px;
+    margin: 0;
+}
+ .contentbox p {
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-top: 10px;
+   line-height: 1.35;
+}
+
+ .panel {
+	width: 100%;
+}
+ .prompt {
+   text-align: left;
+   font-size: 25px;
+   font-weight: normal;
+   font-family: "Verdana";
+   padding-left: 25px
+}
+
+.logtext {
+	text-align: left;
+	margin-left: 5%
+}
+
+ .chatborder {
+   border: 1px dashed grey;
+   text-align: left;
+   max-width: 600px;
+   margin: auto;
+}
+ .bottom {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   font-family: sans-serif;
+   font-size: 11px
+}
+.center {
+  display: block;
+  margin: auto;
+  padding-top: 5px;
+}
+
+@font-face {
+  font-family: fontstuck;
+  src: url(fontstuck.ttf);
+}
+
+@font-face {
+font-family:"courier-std";
+src:url("https://use.typekit.net/af/fec4eb/0000000000000000000131bd/27/l?subset_id=2&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/fec4eb/0000000000000000000131bd/27/d?subset_id=2&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/fec4eb/0000000000000000000131bd/27/a?subset_id=2&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"courier-std";
+src:url("https://use.typekit.net/af/3741dd/0000000000000000000131be/27/l?subset_id=2&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/3741dd/0000000000000000000131be/27/d?subset_id=2&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/3741dd/0000000000000000000131be/27/a?subset_id=2&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"courier-std";
+src:url("https://use.typekit.net/af/8143dd/0000000000000000000131bb/27/l?subset_id=2&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/8143dd/0000000000000000000131bb/27/d?subset_id=2&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/8143dd/0000000000000000000131bb/27/a?subset_id=2&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"courier-std";
+src:url("https://use.typekit.net/af/d0381a/0000000000000000000131bc/27/l?subset_id=2&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/d0381a/0000000000000000000131bc/27/d?subset_id=2&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/d0381a/0000000000000000000131bc/27/a?subset_id=2&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+.username {
+  font-weight: 500;
+    border: 3px solid #FFFF00;
+    border-style: solid solid hidden solid;
+    max-width: 672px;
+    margin:auto;
+    font-size: 15px;
+    font-family: "courier-std", courier, monospace;
+    background-color: #C48A00;
+    text-align: center;
+    padding: 6px;
+    color: white;
+    
+}
+.beginpester {
+    font-size: 10px;
+    font-family: 'fontstuck';
+    border: 3px solid #FFFF00;
+    border-style: hidden solid solid solid;
+    max-width: 620px;
+    background-color: #FDB302;
+    text-align: left;
+	padding: 10px 32px 20px 32px;
+    margin-left: auto;
+	margin-right:auto;
+    margin-top: -3px;
+  }
+.beginpester > div {
+    color: #black;
+    font-size: 15px;
+    font-family: "courier-std", courier, monospace;
+    text-align: left;
+    line-height: 1.35;
+    padding: 8px 30px 8px 30px;
+    margin: 5px -8px 5px -8px;
+    outline: 3px solid #C48A00;
+    background-color: #fafafa;
+  }
+ 
+ .usernameTROLL {
+  font-weight: 500;
+    border: 3px solid #780000;
+    border-style: solid solid hidden solid;
+    max-width: 672px;
+    margin:auto;
+    font-size: 15px;
+    font-family: "courier-std", courier, monospace;
+    background-color: #FFA4A4;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    
+}
+.beginTROLL {
+    font-size: 10px;
+    font-family: 'fontstuck';
+    border: 3px solid #780000;
+    border-style: hidden solid solid solid;
+    max-width: 620px;
+    background-color: #E5000F;
+    text-align: left;
+	padding: 10px 32px 20px 32px;
+    margin-left: auto;
+	margin-right:auto;
+    margin-top: -3px;
+  }
+.beginTROLL > div {
+    color: black;
+    font-size: 15px;
+    font-family: "courier-std", courier, monospace;
+    text-align: left;
+    line-height: 1.35;
+    padding: 8px 30px 8px 30px;
+    margin: 5px -8px 5px -8px;
+    outline: 3px solid #FFA4A4;
+    background-color: #fafafa;
+  }
+ 
+  /*colors lol*/
+.jd {
+    color: #55aaff }
+.kase {
+    color: #21D17E }
+  
