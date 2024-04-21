@@ -15,6 +15,13 @@ a.blog {
 	color: #d45dc3;
 }	
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 a {
 	color: rgb(0, 86, 130);
 }
@@ -60,7 +67,8 @@ nav {
 	margin: auto;
 	background-color: rgb(28, 99, 81);
 	max-height: auto;
-	max-width: 1800px;
+	max-width: 100%;
+	text-align: center;
 }
 
 text {
@@ -78,18 +86,27 @@ text {
 	border-radius: 10px;
 }	
 
+big-box {
+	display: block;
+	border: solid rgb(28, 99, 81);
+	border-width: 8px;
+	border-radius: 10px;
+	max-width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 blog-block {
 	display: block;
 	background-color: rgb(52, 255, 185);
 	margin: auto;
-	padding-bottom: 1.05%;
 	font-size: 20px;
 	border-style: groove;
 	border: thick double rgb(28, 99, 81);
 	border-width: 8px;
 	border-radius: 10px;
 	max-width: 900px;
-	height: 480px;
+	height: 450px;
 	overflow-y: auto;
 }
 
@@ -119,7 +136,7 @@ post-block {
 	border-width: 8px;
 	border-radius: 10px;
 	max-width: 900px;
-	height: 587px;
+	height: 700px;
 	overflow-y: auto;
 }
 
@@ -129,11 +146,11 @@ post-block {
 	height: auto;
 }	
 
-div.buttons {
+.buttons {
 	text-align:center;
 }
 
-div.cool {
+.cool {
 	margin: auto;
 	height: 59px;
 	width: 129px;
@@ -179,16 +196,17 @@ div.cool {
 }
 
 .twogether{
-	display: block;
+	display: inline-block;
 	float: left;
-	margin-left: 10%;
-	margin-top: 1.6%;
-	max-width: 22.5%;
+	margin-left: 5%;
+	margin-top: 4%;
+	max-width: 30.5%;
 }
 
 .gb {
-	margin-left: 30%;
-	margin-top: 10%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }	
 
 .gb2 {
@@ -224,16 +242,11 @@ display: inline;
 
 }
 
-hr {
-	background-color: rgb(28, 99, 81);
-	height: 6px;
-	border-width:0;
-	max-width: 1800px;
-}
-
-
-
 @media screen and (max-width: 481px){
+	
+big-box {
+	border-width: 0px;
+}	
 	
 nav {
 max-height: auto;
@@ -250,11 +263,17 @@ h2 {
 }	
 
 .twogether {
-	display: inline-block;
-	max-width: 50%;
-	margin-left: 25%;
-	margin-top: 0;
+	float: none;
+	max-width: 100%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+;
+
 }
+
+.center {
+	width: 90%;
+}	
 
 .gb {
 	display: none;
@@ -266,7 +285,6 @@ h2 {
 
 text {
 	margin: auto;
-	margin-top: 47%;
 }	
 	
 blog-block {
