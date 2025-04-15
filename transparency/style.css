@@ -41,6 +41,12 @@
    line-height: 1.35;
 }
 
+.contentbox h2 {
+	font-size: 14px;
+	padding-left: 4%;
+	padding-right: 4%;
+}	
+
  .panel {
 	width: 100%;
 }
@@ -189,3 +195,8 @@ font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
 .kase {
     color: #21D17E }
   
+.jade1 {
+	color: #d45dc3 }
+	
+.jade2 {
+	color: #00bd97 }
